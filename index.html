@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Link of css bootstrap-->
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css">
+    <title>Impact Tech</title>
+    <link rel="icon" type="image/x-icon" href="./imgs/favicon.png">
+</head>
+<body class="bg-image" style="background-image: url('./imgs/background.jpg'); height: 100vh;">
+    <div class="d-flex flex-column">
+        <!--Lateral logo-->
+        <div class="text-end pe-3 pt-3">
+            <img src="./imgs/logo-edit.png" alt="logo" style="max-width: 150px;">
+        </div>
+
+        <!--Form-->
+        <div class="d-flex flex-row justify-content-center align-items-center">
+            <div class="d-flex bg-primary align-items-center justify-content-center" style="max-width: 500px; min-width: 300px;">
+                <form class="pt-3 pb-3 ps-5 pe-5">
+                    <!--Logo image-->
+                    <div class="text-center">
+                        <img src="./imgs/logo-edit.png" class="img-fluid" alt="logo" style="max-width: 180px;">
+                    </div>
+        
+                    <!--First name and last name inputs-->
+                    <label class="form-label">1 - What is your first name?</label>
+                    <div class="input-group mb-3">
+                        <span class="input-group-text" id="first-name-span">First name:</span>
+                        <input type="text" class="form-control" placeholder="Type here" aria-label="Type here" aria-describedby="first-name-span">
+                    </div>
+                    <div class="input-group mb-3">
+                        <span class="input-group-text" id="last-name-span">Last name:</span>
+                        <input type="text" class="form-control" placeholder="Type here" aria-label="Type here" aria-describedby="last-name-span">
+                    </div>
+        
+                    <!--Gender radio-->
+                    <label class="form-label">2 - What is your gender?</label>
+                    <div class="input-group">
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                            <label class="form-check-label" for="flexRadioDefault1">
+                                Female
+                            </label>
+                        </div>
+                    </div>
+                    <div class="input-group">
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+                            <label class="form-check-label" for="flexRadioDefault2">
+                                Male
+                            </label>
+                        </div>
+                    </div>
+                    <div class="input-group mb-3">
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault3">
+                            <label class="form-check-label" for="flexRadioDefault3">
+                                Not informate
+                            </label>
+                        </div>
+                    </div>
+                    
+                    <!--Training swicthes-->
+                    <label class="form-label">3 - What trainings do you want to do?</label>
+                    <div class="input-group">
+                        <div class="form-check form-switch">
+                            <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+                            <label class="form-check-label" for="flexSwitchCheckDefault">Javascript Pro</label>
+                        </div>
+                    </div>
+                    <div class="input-group">
+                        <div class="form-check form-switch">
+                            <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked">
+                            <label class="form-check-label" for="flexSwitchCheckChecked">Ruby for begginers</label>
+                        </div>
+                    </div>
+                    <div class="input-group">
+                        <div class="form-check form-switch">
+                            <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked">
+                            <label class="form-check-label" for="flexSwitchCheckChecked">IoT master</label>
+                        </div>
+                    </div>
+                    <div class="input-group mb-3">
+                        <div class="form-check form-switch">
+                            <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked">
+                            <label class="form-check-label" for="flexSwitchCheckChecked">Java is the best</label>
+                        </div>
+                    </div>
+        
+                    <!--Skills checkboxes-->
+                    <label class="form-label d-block">4 - What skills you want to improve?</label>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                        Creativity
+                        </label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                        <label class="form-check-label" for="flexCheckChecked">
+                        Problem-solving
+                        </label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                        <label class="form-check-label" for="flexCheckChecked">
+                        Teamwork
+                        </label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                        <label class="form-check-label" for="flexCheckChecked">
+                        Planning
+                        </label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                        <label class="form-check-label" for="flexCheckChecked">
+                        Programming language
+                        </label>
+                    </div>
+                    <div class="form-check form-check-inline mb-3">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                        <label class="form-check-label" for="flexCheckChecked">
+                        Business Process Modeling
+                        </label>
+                    </div>
+        
+                    <!--Submit button-->
+                    <div class="text-center">
+                        <button type="submit" class="btn btn-outline-secondary">Enviar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <!--Footer-->
+        <footer class="text-center pt-3">
+            <p>Designed by Emanuelle Herran</p>
+        </footer>
+    </div>
+    <!--Bootstrap script-->
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.js"></script>
+</body>
+</html>
